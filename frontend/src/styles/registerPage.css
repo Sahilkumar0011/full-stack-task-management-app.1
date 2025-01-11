@@ -1,0 +1,70 @@
+
+.register-page-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    height: 300px;
+  }
+
+.register-page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+.register-page-input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.register-page-input:focus {
+  border-color: #63b3ed;
+  outline: none;
+}
+
+.register-page-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #48bb78;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-page-button:hover {
+  background-color: #38a169;
+}
+
+.register-page-button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.register-page-error {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.register-page-login-link {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.register-page-login-link:hover {
+  text-decoration: underline;
+}
